@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KRCC – Website Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cairo:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="app"><aside id="side" aria-label="Main navigation"><div class="brand"><img class="logo" id="slogo" alt="KRCC logo"><div><span id="bname">KRCC</span><small>Website admin</small></div></div><nav id="nav"></nav>
+<div class="foot"><a id="site" href="#" target="_blank" rel="noopener">View website</a><button id="coll" type="button">Collapse sidebar</button><button id="out" type="button">Sign out</button><div style="padding:10px 12px;font-size:12px;opacity:.8">Admin</div></div></aside>
+<div class="ov" id="ov"></div>
+<main><header><button class="btn o menu" id="menu" aria-label="Open menu">Menu</button><div><h1 id="ttl"></h1><div class="crumb" id="crumb"></div></div><div class="grow"></div>
+<div class="rel"><input id="gs" type="search" placeholder="Search leads, services, projects" aria-label="Global search" style="width:240px"><div class="pop" id="gres" hidden></div></div>
+<div class="rel"><button class="btn o" id="bell" aria-label="Notifications">Alerts</button><div class="pop" id="notes" hidden></div></div>
+<div class="rel"><button class="btn" id="qa">+ Quick add</button><div class="pop" id="qam" hidden></div></div>
+<button class="btn o" id="lang" aria-label="Language">عربي</button><span class="desk" id="today"></span></header>
+<div id="view"></div></main></div><dialog id="dlg"></dialog><div id="toasts" aria-live="polite"></div>
+<script src="script.js"></script></body></html>
